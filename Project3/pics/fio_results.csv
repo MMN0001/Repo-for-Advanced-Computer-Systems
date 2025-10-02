@@ -1,0 +1,5 @@
+Pattern,Avg_Latency_us,p95_us,p99_us
+4K_RandRead,1.181,1.384,1.576
+4K_RandWrite,371.800,996,1287
+128K_SeqRead,95.129,216.064,272.384
+128K_SeqWrite,330.090,396,578

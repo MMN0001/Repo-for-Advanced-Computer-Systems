@@ -1,0 +1,30 @@
+randread: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=psync, iodepth=1
+fio-3.36
+Starting 1 process
+
+randread: (groupid=0, jobs=1): err= 0: pid=112762: Thu Oct  2 01:26:24 2025
+  read: IOPS=5442, BW=21.3MiB/s (22.3MB/s)(638MiB/30001msec)
+    clat (usec): min=97, max=7953, avg=182.95, stdev=109.85
+     lat (usec): min=97, max=7953, avg=183.01, stdev=109.86
+    clat percentiles (usec):
+     |  1.00th=[  106],  5.00th=[  116], 10.00th=[  155], 20.00th=[  167],
+     | 30.00th=[  169], 40.00th=[  172], 50.00th=[  174], 60.00th=[  182],
+     | 70.00th=[  188], 80.00th=[  198], 90.00th=[  217], 95.00th=[  231],
+     | 99.00th=[  375], 99.50th=[  420], 99.90th=[  523], 99.95th=[  635],
+     | 99.99th=[ 7635]
+   bw (  KiB/s): min=18184, max=23857, per=100.00%, avg=21836.20, stdev=1164.08, samples=59
+   iops        : min= 4546, max= 5964, avg=5458.85, stdev=291.00, samples=59
+  lat (usec)   : 100=0.01%, 250=97.08%, 500=2.78%, 750=0.09%, 1000=0.01%
+  lat (msec)   : 2=0.01%, 4=0.01%, 10=0.02%
+  cpu          : usr=1.09%, sys=5.72%, ctx=163296, majf=0, minf=21
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=163289,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+   READ: bw=21.3MiB/s (22.3MB/s), 21.3MiB/s-21.3MiB/s (22.3MB/s-22.3MB/s), io=638MiB (669MB), run=30001-30001msec
+
+Disk stats (read/write):
+  sdd: ios=162855/24, sectors=1308976/328, merge=0/11, ticks=27713/10, in_queue=27727, util=84.17%
