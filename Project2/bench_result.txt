@@ -1,0 +1,12 @@
+size=8192B stride=64b iters=50000000 avg=1.564 ns
+size=16384B stride=64b iters=50000000 avg=1.156 ns
+size=32768B stride=64b iters=50000000 avg=1.231 ns
+size=262144B stride=64b iters=50000000 avg=3.382 ns
+size=524288B stride=64b iters=50000000 avg=4.557 ns
+size=1048576B stride=64b iters=50000000 avg=4.304 ns
+size=2097152B stride=64b iters=50000000 avg=3.322 ns
+size=16777216B stride=64b iters=50000000 avg=17.436 ns
+size=33554432B stride=64b iters=50000000 avg=63.292 ns
+size=134217728B stride=64b iters=50000000 avg=109.702 ns
+size=536870912B stride=64b iters=50000000 avg=114.071 ns
+size=1073741824B stride=64b iters=50000000 avg=129.265 ns
