@@ -1,0 +1,17 @@
+kernel,build,align,M,GFLOPs
+saxpy,scalar,alignment + no tail,131072,6.99
+saxpy,scalar,alignment + no tail,4194304,6.84
+saxpy,scalar,alignment + tail,131075,6.94
+saxpy,scalar,alignment + tail,4194307,6.84
+saxpy,scalar,misalignment + no tail,131072,6.64
+saxpy,scalar,misalignment + no tail,4194304,6.49
+saxpy,scalar,misalignment + tail,131075,6.57
+saxpy,scalar,misalignment + tail,4194307,6.53
+saxpy,simd,alignment + no tail,131072,25.23
+saxpy,simd,alignment + no tail,4194304,13.73
+saxpy,simd,alignment + tail,131075,25.04
+saxpy,simd,alignment + tail,4194307,13.69
+saxpy,simd,misalignment + no tail,131072,24.25
+saxpy,simd,misalignment + no tail,4194304,12.33
+saxpy,simd,misalignment + tail,131075,24.11
+saxpy,simd,misalignment + tail,4194307,12.42
