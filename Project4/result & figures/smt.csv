@@ -1,0 +1,5 @@
+mode,smt,concurrency,read_iops,read_bw_kib,clat_p99_us
+sync_psync,smt_on,16,6716301.446570,26865205,1.768
+async_uring,smt_on,16,3139584.413853,12558337,0.205
+sync_psync,smt_off,16,3812834.344377,15251337,1.672
+async_uring,smt_off,16,3139743.883741,12558975,0.205

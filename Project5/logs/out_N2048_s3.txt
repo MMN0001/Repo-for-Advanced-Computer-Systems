@@ -1,0 +1,12 @@
+Exp1 SIMD + multithreading (AVX2 + OpenMP)
+m=2048 k=2048 n=2048, density=0.0100, repeats=3, threads=6
+CHECK dense_err=0.00015258789
+CHECK spmm_err=2.3841858e-06
+
+[Dense GEMM SIMD+threads]
+GEMM avg runtime = 0.129406 s
+GFLOP/s     = 132.760
+
+[CSR SpMM SIMD+threads]
+SpMM avg runtime = 0.003859 s
+nnz         = 41540

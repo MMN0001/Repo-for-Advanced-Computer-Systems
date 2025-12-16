@@ -1,0 +1,7 @@
+mode,affinity,concurrency,read_iops,read_bw_kib,clat_p99_us
+sync_psync,nopin,16,6721764.007866,26887056,1.784
+async_uring,nopin,16,3168185.193827,12672740,0.201
+sync_psync,core1,16,1487952.051145,5951808,1.720
+async_uring,core1,16,1760598.493434,7042393,0.185
+sync_psync,core2,16,2662537.300503,10650149,1.640
+async_uring,core2,16,3205497.950068,12821991,0.193
